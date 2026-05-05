@@ -1,0 +1,11 @@
+1. Navigate to the folder where the script is:
+cd /path/to/your/file --> dogani.sh
+
+2. Make sure it’s executable (only needed once):
+chmod +x dogani.sh
+
+3. Run it:
+./dogani.sh
+
+4. If you don’t want to change permissions, you can still run it like this:
+bash dogani.sh
