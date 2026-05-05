@@ -1,6 +1,17 @@
 # nodejs_api_structure
 Practical Approach for NodeJs API structure
 
+You just need to wrap the structure in a proper Markdown code block so it renders cleanly in your `README.md`.
+
+Use this:
+
+```md
+# nodejs_api_structure
+
+Practical Approach for NodeJs API structure
+
+```
+
 my-api/
 ├── src/
 │   ├── controllers/    # Handle request/response logic
@@ -13,3 +24,8 @@ my-api/
 ├── .gitignore
 ├── package.json
 └── server.js           # Entry point
+
+```
+```
+
+
