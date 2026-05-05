@@ -1,0 +1,10 @@
+mkdir src
+mkdir src\controllers
+mkdir src\routes
+mkdir src\models
+mkdir src\middleware
+mkdir src\config
+mkdir src\utils
+type nul > server.js
+type nul > .env
+type nul > .gitignore
