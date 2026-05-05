@@ -1,0 +1,2 @@
+mkdir -p src/{controllers,routes,models,middleware,config,utils}
+touch server.js .env .gitignore
