@@ -3,7 +3,7 @@ Practical Approach for NodeJs API structure
 
 my-api/
 ├── src/
-│   ├── controllers/     # Handle request/response logic
+│   ├── controllers/    # Handle request/response logic
 │   ├── routes/         # Define API endpoints
 │   ├── models/         # Data structure & database logic
 │   ├── middleware/     # Reusable functions (auth, logging, etc.)
