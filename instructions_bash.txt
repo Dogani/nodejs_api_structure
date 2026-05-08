@@ -1,11 +1,11 @@
 1. Navigate to the folder where the script is:
-cd /path/to/your/file --> dogani.sh
+cd /path/to/your/file --> bash_setup.sh
 
 2. Make sure it’s executable (only needed once):
-chmod +x dogani.sh
+chmod +x bash_setup.sh
 
 3. Run it:
-./dogani.sh
+./bash_setup.sh
 
 4. If you don’t want to change permissions, you can still run it like this:
-bash dogani.sh
+bash bash_setup.sh
