@@ -4,6 +4,7 @@ mkdir src\routes
 mkdir src\models
 mkdir src\middleware
 mkdir src\config
+mkdir src\docs
 mkdir src\utils
 type nul > server.js
 type nul > .env
