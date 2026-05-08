@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create folders
-mkdir -p src/{controllers,routes,models,middleware,config,utils}
+mkdir -p src/{controllers,routes,models,middleware,config,docs,utils}
 
 # Create files
 touch server.js .env .gitignore
@@ -13,4 +13,4 @@ npm init -y
 npm install express dotenv
 npm install -D nodemon
 
-echo "Project structure created successfully!"
+echo "Project Structure Created Successfully!"
