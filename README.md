@@ -17,6 +17,11 @@ my-api/
 ├── package.json
 └── server.js          # Entry point
 
+# Note
+routes/index.js is usually used as a central route loader or route aggregator.
+
+Instead of importing every route file one by one inside server.js or app.js, you collect them in routes/index.js and export them from one place.
+
 ```
 # Example Of Services
 ```
