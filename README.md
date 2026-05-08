@@ -10,6 +10,7 @@ my-api/
 │   ├── middleware/    # Reusable functions (auth, logging, etc.)
 │   ├── config/        # Configuration files
 │   ├── services/      # Business logic and third-party API integrations
+|   ├── docs/          # Stores project documentation — things humans need to read
 │   └── utils/         # Helper functions
 ├── .env               # Environment variables
 ├── .gitignore
@@ -25,4 +26,17 @@ src/
 │   ├── payment.service.js
 │   ├── email.service.js
 │   └── externalApi.service.js
+```
+
+# Example of Docs
+```
+src/
+├── docs/
+│   ├── api.md
+│   ├── authentication.md
+│   ├── deployment.md
+│   ├── database-schema.md
+│   ├── architecture.md
+│   ├── postman-collection.json
+│   └── swagger.yaml
 ```
